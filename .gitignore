@@ -5,6 +5,7 @@ Cargo.lock
 .idea
 *.iml
 .vscode
+.DS_Store
 
 # Don't commit the auto-generated lib.rs file
-#src/lib.rs
+src/lib.rs
