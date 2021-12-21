@@ -12,6 +12,10 @@ macro_rules! build_script_var {
 }
 
 fn main() -> Result<()> {
+    if std::env::var("DOCS_RS").is_ok() {
+        return Ok(());
+    }
+
     let out_dir = build_script_var!("OUT_DIR");
     let macros_dir = out_dir
         .split("target")
