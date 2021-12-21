@@ -1,0 +1,18 @@
+[package]
+name = "js-macros"
+version = "0.1.0"
+authors = ["Vultix"]
+description = "Quickly prototype procedural macros using JavaScript or TypeScript!"
+keywords = ["proc_macro", "js", "ts", "javascript", "typescript", "macro", "macros", "easy"]
+edition = "2021"
+
+[lib]
+proc-macro = true
+path = "src/lib.rs"
+
+[dependencies]
+proc-macro-error = "1"
+
+[build-dependencies]
+regex = "1"
+anyhow = "1"

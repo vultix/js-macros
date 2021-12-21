@@ -1,0 +1,10 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+.idea
+*.iml
+.vscode
+
+# Don't commit the auto-generated lib.rs file
+#src/lib.rs
