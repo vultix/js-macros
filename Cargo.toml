@@ -2,8 +2,12 @@
 name = "js-macros"
 version = "0.1.0"
 authors = ["Vultix"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/vultix/js-macros"
+readme = "README.md"
 description = "Quickly prototype procedural macros using JavaScript or TypeScript!"
-keywords = ["proc_macro", "js", "ts", "javascript", "typescript", "macro", "macros", "easy"]
+keywords = ["proc_macro", "javascript", "typescript", "macros"]
+categories = ["development-tools::procedural-macro-helpers"]
 edition = "2021"
 
 [lib]
