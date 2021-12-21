@@ -20,4 +20,4 @@ _Helpful tip: These macros are invoked using `node`, allowing you to use tools l
 
 ## Examples
 Example macros can be found in this repository's [js-macros](https://github.com/vultix/js-macros/tree/main/js-macros) folder, 
-with example usage in the [examples](https://github.com/vultix/js-macros/tree/main/js-macros) folder.
+with example usage in the [examples](https://github.com/vultix/js-macros/tree/main/examples) folder.
