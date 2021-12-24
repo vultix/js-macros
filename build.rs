@@ -245,6 +245,8 @@ fn compile_typescript(path: &Path) -> Result<PathBuf> {
             "--allowJs",
             "--module",
             "commonjs",
+            "--target",
+            "esnext",
             "--importsNotUsedAsValues",
             "preserve",
             "--pretty",
